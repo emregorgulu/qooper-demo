@@ -3,7 +3,7 @@ Feature: Qooper Demo
   @Login
   @QooperWrongEmailLogin
   Scenario: Qooper Wrong Email Login
-    * Check 'Homepage Logo' object visible.
+    * Check 'Homepage Logo' object is visible.
     * Navigate to "https://platform.qooper.io/signIn" url.
     * The value "emre@testqooper.com" is written in the EMAIL field.
     * The value "123456" is written in the PASSWORD field.
@@ -18,11 +18,11 @@ Feature: Qooper Demo
     * Navigate to "https://staging.mentoring.qooper.io/" url.
     * The value "menteeprofilepeermatching@testqooper.com" is written in the EMAIL field.
     * The value "123456" is written in the PASSWORD field.
-    * Check 'Mentor Platform Home Icon' object visible.
+    * Check 'Mentor Platform Home Icon' object is visible.
     * Click 'Mentoring' object.
-    * Check 'Mentors' object visible.
+    * Check 'Mentors' object is visible.
     * Check 'Mentees' object is not visible.
-    * Check 'Peer' object visible.
+    * Check 'Peer' object is visible.
     * Check 'Find More Mentors' object is not visible.
     
     

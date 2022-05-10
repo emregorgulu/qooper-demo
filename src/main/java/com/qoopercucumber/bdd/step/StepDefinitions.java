@@ -68,8 +68,8 @@ public class StepDefinitions {
             bsp.untilElementAppear(by);
         } catch (Exception ex) {
             log.error(ex.getMessage(), ex);
-            log.error(by + " görülmedi!");
-            bsp.assertFail(keyword + ":" + by + " görülmedi!");
+            log.error(by + " not visible!");
+            bsp.assertFail(keyword + ":" + by + " not visible!");
         }
         bsp.clickElement(by);
     }
@@ -84,8 +84,8 @@ public class StepDefinitions {
                 bsp.untilElementAppear(by);
             } catch (Exception ex) {
                 log.error(ex.getMessage(), ex);
-                log.error(by + " görülmedi!");
-                bsp.assertFail(keyword + ":" + by + " görülmedi!");
+                log.error(by + " not visible!");
+                bsp.assertFail(keyword + ":" + by + " not visible!");
             }
             bsp.clickElement(by);
         }
@@ -109,40 +109,12 @@ public class StepDefinitions {
             }
         }
 
-
-    @Given("^(.*) alanına \"(.*)\" değeri yazılır ve aranır.$")
-    public void sendKeysandSearch(String object, String value) {
+    @Given("^ Type \"(.*)\" in the (.*) filed and search.$")
+    public void sendKeysandSearch(String value, String object) {
         try {
             bsp.sendKeys(mapper.getElementBy(object), value);
             driver.findElement(mapper.getElementBy(object)).sendKeys(Keys.ENTER);
             saveEnv.put("searchedProduct",value);
-        } catch (Exception e) {
-            log.error(e.getMessage(), e);
-            fail(e.getMessage());
-            bsp.assertFail(e.getMessage());
-        }
-    }
-
-    @Given("^(.*) karakter uzunluğunda rastgele değer \"(.*)\" değişkenine kaydedilir.")
-    public void sendKeysRandom(String size, String variable) {
-        try {
-            saveEnv.put(variable, "0" + bsp.createRandomString(Integer.parseInt(size)));
-        } catch (Exception e) {
-            log.error(e.getMessage(), e);
-            fail(e.getMessage());
-            bsp.assertFail(e.getMessage());
-        }
-    }
-
-
-    @Given("^(.*) alanına \"(.*)\" değişkenine atanmış değer yazılır.$")
-    public void sendKeysGetMap(String object, String keyword) {
-        try {
-            if (saveEnv.get(keyword) != null) {
-                bsp.sendKeys(mapper.getElementBy(object), saveEnv.get(keyword));
-            } else {
-                fail("Verilen değişken ile ilgili kayıt bulunamamıştır.");
-            }
         } catch (Exception e) {
             log.error(e.getMessage(), e);
             fail(e.getMessage());
@@ -161,7 +133,7 @@ public class StepDefinitions {
         }
     }
 
-    @Given("^Check '(.*)' object visible.$")
+    @Given("^Check '(.*)' object is visible.$")
     public void checkVisible(String object) {
         try {
             bsp.assertionTrue("Checked element is not visible!", bsp.isElementDisplayed(mapper.getElementBy(object)));
@@ -172,24 +144,7 @@ public class StepDefinitions {
         }
     }
 
-    @Given("^(.*) objesinin değerinin \"(.*)\" değerine eşitliği kontrol edilir.$")
-    public void assertEqual(String object, String value) {
-        try {
-            if (value.contains("@DB_")) {
-                String replaceValue = value.replaceAll("@DB_", "");
-                log.info("ARANILAN DEĞER :" + dataMap.get(replaceValue));
-                log.info("BULUNAN DEĞER :" + bsp.getText(mapper.getElementBy(object)));
-                bsp.assertionEquals("Veritabanın'dan gelen değer ile bulunan değer eşleşmiyor.", bsp.getText(mapper.getElementBy(object)), dataMap.get(replaceValue));
-            } else {
-                log.info("ARANILAN DEĞER :" + value);
-                log.info("BULUNAN DEĞER :" + bsp.getText(mapper.getElementBy(object)));
-                bsp.assertionEquals("Verilen değer ile bulunan değer eşleşmiyor.", bsp.getText(mapper.getElementBy(object)), value);
-            }
-        } catch (Exception e) {
-            log.error(e.getMessage(), e);
-            bsp.assertFail(e.getMessage());
-        }
-    }
+
 
     @Given("^Navigate to \"(.*)\" url.$")
     public void navigateToUrl(String url) {
@@ -202,8 +157,8 @@ public class StepDefinitions {
         }
     }
 
-    @Given("^(.*) listesinden \"(.*)\" değeri seçilir.")
-    public void selectOptionClick(String object, String value) {
+    @Given("^The value \"(.*)\" is selected from the list (.*).")
+    public void selectOptionClick(String value, String object) {
         try {
             bsp.selectOptionClick(mapper.getElementBy(object), value);
         } catch (Exception e) {
@@ -213,7 +168,7 @@ public class StepDefinitions {
         }
     }
 
-    @Given("^Klavyeden TAB tuşuna basılır.$")
+    @Given("^Press TAB KEY.$")
     public void sendKeyTAB() {
         try {
             bsp.findElement(By.id("body")).sendKeys(Keys.TAB);
@@ -224,7 +179,7 @@ public class StepDefinitions {
         }
     }
 
-    @Given("^Klavyeden ENTER tuşuna basılır.$")
+    @Given("^Press ENTER KEY.$")
     public void sendKeyENTER() {
         try {
             bsp.findElement(By.id("body")).sendKeys(Keys.ENTER);
@@ -239,9 +194,9 @@ public class StepDefinitions {
     public void assertContains(String object, String value) {
         try {
 
-                log.info("ARANILAN DEĞER :" + value);
-                log.info("BULUNAN DEĞER :" + bsp.getText(mapper.getElementBy(object)));
-                bsp.assertionTrue("Verdiğiniz değer bulunan değeri içermiyor.", bsp.getText(mapper.getElementBy(object)).contains(value));
+                log.info("Searched Value :" + value);
+                log.info("Found Value :" + bsp.getText(mapper.getElementBy(object)));
+                bsp.assertionTrue("The value you provided does not contain the found value..", bsp.getText(mapper.getElementBy(object)).contains(value));
         } catch (Exception e) {
             log.error(e.getMessage(), e);
             bsp.assertFail(e.getMessage());
@@ -249,10 +204,10 @@ public class StepDefinitions {
     }
 
 
-    @Given("^'(.*)' saniye beklenir.$")
+    @Given("^ Wait '(.*)' seconds.$")
     public void waitForSeconds(int seconds) {
         try {
-            log.info(seconds + " saniye bekleniyor.");
+            log.info(seconds + " waiting seconds.");
             bsp.timeUnitSeconds(seconds);
         } catch (Exception e) {
             log.error(e.getMessage(), e);
@@ -260,10 +215,10 @@ public class StepDefinitions {
         }
     }
 
-    @Given("^'(.*)' dakika beklenir.")
+    @Given("^Wait '(.*)' minutes.")
     public void waitForMinutes(int minutes) {
         try {
-            log.info(minutes + " dakika bekleniyor.");
+            log.info(minutes + " waiting minutes.");
             bsp.timeUnitMinutes(minutes);
         } catch (Exception e) {
             log.error(e.getMessage(), e);
@@ -271,7 +226,7 @@ public class StepDefinitions {
         }
     }
 
-    @Given("^(.*) objesinin seçili olduğu kontrol edilir.$")
+    @Given("^Check (.*) object is selected.$")
     public void assertIsSelected(String object) {
         try {
             bsp.selectOptionFirstSelect(mapper.getElementBy(object));
@@ -282,113 +237,27 @@ public class StepDefinitions {
     }
 
 
-    @Given("^Ürün listesinde '(.*)'. sayfaya gidilir.$")
-    public void navigateProductListbyNumber(int index) {
-        try {
-            bsp.navigateTo("https://www.n11.com/arama?q="+saveEnv.get("searchedProduct")+"&pg="+index);
-        } catch (Exception e) {
-            log.error(e.getMessage(), e);
-            fail(e.getMessage());
-            bsp.assertFail(e.getMessage());
-        }
-    }
-
-    @Given("^Ürün listesinden '(.*)' numaralı objeye tıklanır.$")
-    public void selectProductListByIndex(int index) {
-        try {
-            String Product = "#view > ul > li:nth-child(" + index + ") > div > div.pro > a";
-            driver.findElementByCssSelector(Product).click();
-
-        } catch (Exception e) {
-            log.error(e.getMessage(), e);
-            fail(e.getMessage());
-            bsp.assertFail(e.getMessage());
-        }
-    }
-
-    @Given("^Ürün listesinden '(.*)' numaralı ürün favorilere eklenir ve '(.*)' parametresi ile ürün adı saklanır.$")
-    public void addFavoritesOnListByIndex(int index, String parameter) {
-        try {
-            String Product = "#view > ul > li:nth-child(" + index + ") > div > div.pro > span";
-            String ProductName= driver.findElementByCssSelector("#view > ul > li:nth-child(" + index + ") > div > div.pro > a > h" + index).getText();
-            saveEnv.put(parameter,ProductName);
-            driver.findElementByCssSelector(Product).click();
-        } catch (Exception e) {
-            log.error(e.getMessage(), e);
-            fail(e.getMessage());
-            bsp.assertFail(e.getMessage());
-        }
-    }
-
-
-        @Given("^Favori listesinde '(.*)' parametresi ile saklanan ürün adının var olduğu kontrol edilir.$")
-        public void checkFavoritesOnListByParameter(String parameter) {
-            try {
-                bsp.isTextPresent(saveEnv.get(parameter));
-            } catch (Exception e) {
-                log.error(e.getMessage(), e);
-                fail(e.getMessage());
-                bsp.assertFail(e.getMessage());
-            }
-    }
-
-    @Given("^Favori listesinde '(.*)' parametresi ile saklanan ürün adının var olmadığı kontrol edilir.$")
-    public void checkNonExsistFavoritesOnListByParameter(String parameter) {
-        String ProductName= saveEnv.get(parameter);
-
-        try {
-            bsp.assertionFalse("Favori listesinde " + ProductName + " ürünü bulunamadı.",bsp.isTextPresent(ProductName)==false);
-        } catch (Exception e) {
-            log.error(e.getMessage(), e);
-            fail(e.getMessage());
-            bsp.assertFail(e.getMessage());
-        }
-    }
-
-    @Given("^Favori listesinde '(.*)' parametresi ile saklanan ürün favorilerden kaldırılır.$")
-    public void removeFavoritesOnListByParameter(String parameter) {
-        try {
-
-
-            List<String> values = new ArrayList<String>();
-            List<WebElement> url_link = driver.findElements(mapper.getElementBy("FAVORI URUN LISTESI"));
-            for ( WebElement we: url_link) {
-
-                values.add(we.getText());
-            }
-
-            int ind = values.indexOf(saveEnv.get(parameter))+1;
-            String ProductName= "#view > ul > li:nth-child(" + ind + ") > div > div.wishProBtns > span";
-            log.info(ProductName);
-            driver.findElementByCssSelector(ProductName).click();
-        } catch (Exception e) {
-            log.error(e.getMessage(), e);
-            fail(e.getMessage());
-            bsp.assertFail(e.getMessage());
-        }
-    }
-
-    @Given("^(.*) alanının dolu olduğu kontrol edilir.")
+    @Given("^Check (.*) field is not empty.")
     public void assertIsNotNull(String object) {
         try {
-            bsp.assertionFalse("Kontrol ettiğiniz obje boştur!", bsp.getText(mapper.getElementBy(object)).isEmpty());
+            bsp.assertionFalse("The object you are checking is empty!", bsp.getText(mapper.getElementBy(object)).isEmpty());
         } catch (Exception e) {
             log.error(e.getMessage(), e);
             bsp.assertFail(e.getMessage());
         }
     }
 
-    @Given("^(.*) alanının boş olduğu kontrol edilir.")
+    @Given("^ Checked (.*) filed is empty.")
     public void assertIsNull(String object) {
         try {
-            bsp.assertionTrue("Kontrol ettiğiniz obje boş değildir!", bsp.getText(mapper.getElementBy(object)).isEmpty());
+            bsp.assertionTrue("The object you are checking is not empty!", bsp.getText(mapper.getElementBy(object)).isEmpty());
         } catch (Exception e) {
             log.error(e.getMessage(), e);
             bsp.assertFail(e.getMessage());
         }
     }
 
-    @Given("^(.*) objesi görününe kadar beklenir.")
+    @Given("^ Wait until (.*) object appear.")
     public void waitUntilElementAppear(String object) {
         bsp.untilElementAppear(mapper.getElementBy(object));
     }
@@ -396,7 +265,7 @@ public class StepDefinitions {
 
 
 
-    @Given("^(.*) objesine çift tıklanır.")
+    @Given("^Double click (.*) object.")
     public void doubleClick(String object) {
         try {
             bsp.doubleClickElement(mapper.getElementBy(object));
@@ -407,35 +276,7 @@ public class StepDefinitions {
         }
     }
 
-    @Given("^(.*) objesinin aktif olduğu kontrol edilir.")
-    public void checkElementIsEnabled(String object) {
-        try {
-            bsp.isElementEnabled(mapper.getElementBy(object));
-        } catch (Exception e) {
-            log.error(e.getMessage(), e);
-            bsp.assertFail(object + " objesi aktiflik kontrolü yapılamamıştır.");
-        }
-    }
 
-    @Given("^(.*) objesinin pasif olduğu kontrol edilir.")
-    public void checkElementIsDisabled(String object) {
-        try {
-            bsp.assertionFalse(object + " objesi aktifdir.", bsp.isElementEnabled(mapper.getElementBy(object)));
-        } catch (Exception e) {
-            log.error(e.getMessage(), e);
-            bsp.assertFail(object + " objesi pasiflik kontrolü yapılamamıştır.");
-        }
-    }
-
-    @Given("^(.*) objesinin değeri '(.*)' değişkenine kaydedilir.")
-    public void storeVariable(String object, String parameter) {
-        try {
-            saveEnv.put(parameter, bsp.getText(mapper.getElementBy(object)));
-        } catch (Exception e) {
-            log.error(e.getMessage(), e);
-            bsp.assertFail(object + " objesi kaydedilemedi.");
-        }
-    }
 
 
     @After
@@ -444,7 +285,7 @@ public class StepDefinitions {
             try {
                 getDriver().quit();
             } catch (Exception ex) {
-                log.info("Driver kapatılırken sorun oluştu. Dikkate alınmayabilir.");
+                log.info("There was a problem closing the driver. It may be ignored.");
             }
         }
     }
