@@ -1,0 +1,497 @@
+[ERROR] 2022-05-10 10:07:41.524 StepDefinitions:50 - Timed out waiting for driver server to start.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Air-3.local', ip: 'fe80:0:0:0:10e9:8190:5851:cef1%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_202'
+Driver info: driver.version: ChromeDriver
+org.openqa.selenium.WebDriverException: Timed out waiting for driver server to start.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Air-3.local', ip: 'fe80:0:0:0:10e9:8190:5851:cef1%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_202'
+Driver info: driver.version: ChromeDriver
+	at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:202) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:188) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:79) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181) ~[selenium-chrome-driver-3.141.59.jar:?]
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168) ~[selenium-chrome-driver-3.141.59.jar:?]
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:157) ~[selenium-chrome-driver-3.141.59.jar:?]
+	at Browser.setBrowser(Browser.java:43) ~[classes/:?]
+	at StepDefinitions.setUp(StepDefinitions.java:46) ~[classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_202]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_202]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_202]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_202]
+	at io.cucumber.java.Invoker.invoke(Invoker.java:27) ~[cucumber-java-5.6.0.jar:?]
+	at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:61) ~[cucumber-java-5.6.0.jar:?]
+	at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:31) ~[cucumber-core-5.6.0.jar:?]
+	at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:20) ~[cucumber-core-5.6.0.jar:?]
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:64) ~[cucumber-core-5.6.0.jar:?]
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:49) ~[cucumber-core-5.6.0.jar:?]
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:47) ~[cucumber-core-5.6.0.jar:?]
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:67) ~[cucumber-core-5.6.0.jar:?]
+	at io.cucumber.core.runtime.Runtime.lambda$run$2(Runtime.java:100) ~[cucumber-core-5.6.0.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_202]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_202]
+	at io.cucumber.core.runtime.Runtime$SameThreadExecutorService.execute(Runtime.java:243) ~[cucumber-core-5.6.0.jar:?]
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:112) ~[?:1.8.0_202]
+	at io.cucumber.core.runtime.Runtime.lambda$run$3(Runtime.java:100) ~[cucumber-core-5.6.0.jar:?]
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193) [?:1.8.0_202]
+	at java.util.stream.SliceOps$1$1.accept(SliceOps.java:204) [?:1.8.0_202]
+	at java.util.ArrayList$ArrayListSpliterator.tryAdvance(ArrayList.java:1359) [?:1.8.0_202]
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126) [?:1.8.0_202]
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498) [?:1.8.0_202]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485) [?:1.8.0_202]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471) [?:1.8.0_202]
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708) [?:1.8.0_202]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) [?:1.8.0_202]
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499) [?:1.8.0_202]
+	at io.cucumber.core.runtime.Runtime.run(Runtime.java:101) [cucumber-core-5.6.0.jar:?]
+	at io.cucumber.core.cli.Main.run(Main.java:75) [cucumber-core-5.6.0.jar:?]
+	at cucumber.api.cli.Main.run(Main.java:28) [cucumber-core-5.6.0.jar:?]
+	at cucumber.api.cli.Main.main(Main.java:15) [cucumber-core-5.6.0.jar:?]
+Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:5805/status] to be available after 20050 ms
+	at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:100) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:197) ~[selenium-remote-driver-3.141.59.jar:?]
+	... 42 more
+Caused by: java.util.concurrent.TimeoutException
+	at java.util.concurrent.FutureTask.get(FutureTask.java:205) ~[?:1.8.0_202]
+	at com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:156) ~[guava-25.0-jre.jar:?]
+	at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:75) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:197) ~[selenium-remote-driver-3.141.59.jar:?]
+	... 42 more
+[ERROR] 2022-05-10 10:11:11.015 StepDefinitions:50 - unknown error: DevToolsActivePort file doesn't exist
+  (Driver info: chromedriver=87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}),platform=Mac OS X 11.0.0 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 61.11 seconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Air-3.local', ip: 'fe80:0:0:0:10e9:8190:5851:cef1%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_202'
+Driver info: driver.version: ChromeDriver
+org.openqa.selenium.WebDriverException: unknown error: DevToolsActivePort file doesn't exist
+  (Driver info: chromedriver=87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}),platform=Mac OS X 11.0.0 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 61.11 seconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Air-3.local', ip: 'fe80:0:0:0:10e9:8190:5851:cef1%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_202'
+Driver info: driver.version: ChromeDriver
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_202]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:1.8.0_202]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:1.8.0_202]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[?:1.8.0_202]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$errorHandler$0(JsonWireProtocolResponse.java:54) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126) ~[selenium-remote-driver-3.141.59.jar:?]
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193) ~[?:1.8.0_202]
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958) ~[?:1.8.0_202]
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126) ~[?:1.8.0_202]
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498) ~[?:1.8.0_202]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485) ~[?:1.8.0_202]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471) ~[?:1.8.0_202]
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152) ~[?:1.8.0_202]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:1.8.0_202]
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464) ~[?:1.8.0_202]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181) ~[selenium-chrome-driver-3.141.59.jar:?]
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168) ~[selenium-chrome-driver-3.141.59.jar:?]
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:157) ~[selenium-chrome-driver-3.141.59.jar:?]
+	at Browser.setBrowser(Browser.java:43) ~[classes/:?]
+	at StepDefinitions.setUp(StepDefinitions.java:46) ~[classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_202]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_202]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_202]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_202]
+	at io.cucumber.java.Invoker.invoke(Invoker.java:27) ~[cucumber-java-5.6.0.jar:?]
+	at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:61) ~[cucumber-java-5.6.0.jar:?]
+	at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:31) ~[cucumber-core-5.6.0.jar:?]
+	at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:20) ~[cucumber-core-5.6.0.jar:?]
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:64) ~[cucumber-core-5.6.0.jar:?]
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:49) ~[cucumber-core-5.6.0.jar:?]
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:47) ~[cucumber-core-5.6.0.jar:?]
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:67) ~[cucumber-core-5.6.0.jar:?]
+	at io.cucumber.core.runtime.Runtime.lambda$run$2(Runtime.java:100) ~[cucumber-core-5.6.0.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_202]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_202]
+	at io.cucumber.core.runtime.Runtime$SameThreadExecutorService.execute(Runtime.java:243) ~[cucumber-core-5.6.0.jar:?]
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:112) ~[?:1.8.0_202]
+	at io.cucumber.core.runtime.Runtime.lambda$run$3(Runtime.java:100) ~[cucumber-core-5.6.0.jar:?]
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193) [?:1.8.0_202]
+	at java.util.stream.SliceOps$1$1.accept(SliceOps.java:204) [?:1.8.0_202]
+	at java.util.ArrayList$ArrayListSpliterator.tryAdvance(ArrayList.java:1359) [?:1.8.0_202]
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126) [?:1.8.0_202]
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498) [?:1.8.0_202]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485) [?:1.8.0_202]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471) [?:1.8.0_202]
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708) [?:1.8.0_202]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) [?:1.8.0_202]
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499) [?:1.8.0_202]
+	at io.cucumber.core.runtime.Runtime.run(Runtime.java:101) [cucumber-core-5.6.0.jar:?]
+	at io.cucumber.core.cli.Main.run(Main.java:75) [cucumber-core-5.6.0.jar:?]
+	at cucumber.api.cli.Main.run(Main.java:28) [cucumber-core-5.6.0.jar:?]
+	at cucumber.api.cli.Main.main(Main.java:15) [cucumber-core-5.6.0.jar:?]
+[ERROR] 2022-05-10 10:22:18.696 StepDefinitions:50 - session not created: This version of ChromeDriver only supports Chrome version 102
+Current browser version is 101.0.4951.54 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+  (Driver info: chromedriver=102.0.5005.27 (df4a85108ffad4dca2c409c52f24df7ec0204b91-refs/branch-heads/5005_22@{#4}),platform=Mac OS X 12.2.1 arm64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 36.56 seconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Air-3.local', ip: 'fe80:0:0:0:10e9:8190:5851:cef1%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_202'
+Driver info: driver.version: ChromeDriver
+org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 102
+Current browser version is 101.0.4951.54 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+  (Driver info: chromedriver=102.0.5005.27 (df4a85108ffad4dca2c409c52f24df7ec0204b91-refs/branch-heads/5005_22@{#4}),platform=Mac OS X 12.2.1 arm64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 36.56 seconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Air-3.local', ip: 'fe80:0:0:0:10e9:8190:5851:cef1%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_202'
+Driver info: driver.version: ChromeDriver
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_202]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:1.8.0_202]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:1.8.0_202]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[?:1.8.0_202]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$errorHandler$0(JsonWireProtocolResponse.java:54) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126) ~[selenium-remote-driver-3.141.59.jar:?]
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193) ~[?:1.8.0_202]
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958) ~[?:1.8.0_202]
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126) ~[?:1.8.0_202]
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498) ~[?:1.8.0_202]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485) ~[?:1.8.0_202]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471) ~[?:1.8.0_202]
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152) ~[?:1.8.0_202]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:1.8.0_202]
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464) ~[?:1.8.0_202]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181) ~[selenium-chrome-driver-3.141.59.jar:?]
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168) ~[selenium-chrome-driver-3.141.59.jar:?]
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:157) ~[selenium-chrome-driver-3.141.59.jar:?]
+	at Browser.setBrowser(Browser.java:43) ~[classes/:?]
+	at StepDefinitions.setUp(StepDefinitions.java:46) ~[classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_202]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_202]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_202]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_202]
+	at io.cucumber.java.Invoker.invoke(Invoker.java:27) ~[cucumber-java-5.6.0.jar:?]
+	at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:61) ~[cucumber-java-5.6.0.jar:?]
+	at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:31) ~[cucumber-core-5.6.0.jar:?]
+	at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:20) ~[cucumber-core-5.6.0.jar:?]
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:64) ~[cucumber-core-5.6.0.jar:?]
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:49) ~[cucumber-core-5.6.0.jar:?]
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:47) ~[cucumber-core-5.6.0.jar:?]
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:67) ~[cucumber-core-5.6.0.jar:?]
+	at io.cucumber.core.runtime.Runtime.lambda$run$2(Runtime.java:100) ~[cucumber-core-5.6.0.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_202]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_202]
+	at io.cucumber.core.runtime.Runtime$SameThreadExecutorService.execute(Runtime.java:243) ~[cucumber-core-5.6.0.jar:?]
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:112) ~[?:1.8.0_202]
+	at io.cucumber.core.runtime.Runtime.lambda$run$3(Runtime.java:100) ~[cucumber-core-5.6.0.jar:?]
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193) [?:1.8.0_202]
+	at java.util.stream.SliceOps$1$1.accept(SliceOps.java:204) [?:1.8.0_202]
+	at java.util.ArrayList$ArrayListSpliterator.tryAdvance(ArrayList.java:1359) [?:1.8.0_202]
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126) [?:1.8.0_202]
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498) [?:1.8.0_202]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485) [?:1.8.0_202]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471) [?:1.8.0_202]
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708) [?:1.8.0_202]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) [?:1.8.0_202]
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499) [?:1.8.0_202]
+	at io.cucumber.core.runtime.Runtime.run(Runtime.java:101) [cucumber-core-5.6.0.jar:?]
+	at io.cucumber.core.cli.Main.run(Main.java:75) [cucumber-core-5.6.0.jar:?]
+	at cucumber.api.cli.Main.run(Main.java:28) [cucumber-core-5.6.0.jar:?]
+	at cucumber.api.cli.Main.main(Main.java:15) [cucumber-core-5.6.0.jar:?]
+[INFO ] 2022-05-10 10:25:26.956 StepDefinitions:57 - Current Step : Default Step
+[INFO ] 2022-05-10 10:25:27.129 Mapper:102 - BY GENERATE :cssSelector-"#header > div > h1 > a > img"
+[INFO ] 2022-05-10 10:25:27.138 Mapper:80 - BY :By.cssSelector: #header > div > h1 > a > img
+[INFO ] 2022-05-10 10:25:27.139 BasePage:519 - Element Displayed Control : By.cssSelector: #header > div > h1 > a > img
+[INFO ] 2022-05-10 10:25:27.230 BasePage:612 - Wait all complete !
+[INFO ] 2022-05-10 10:25:27.531 StepDefinitions:57 - Current Step : Default Step
+[INFO ] 2022-05-10 10:25:27.534 Mapper:102 - BY GENERATE :cssSelector-"#userKvkkModal > div > div.btnHolder > span"
+[INFO ] 2022-05-10 10:25:27.536 Mapper:80 - BY :By.cssSelector: #userKvkkModal > div > div.btnHolder > span
+[INFO ] 2022-05-10 10:25:27.536 BasePage:519 - Element Displayed Control : By.cssSelector: #userKvkkModal > div > div.btnHolder > span
+[INFO ] 2022-05-10 10:25:28.022 BasePage:612 - Wait all complete !
+[INFO ] 2022-05-10 10:25:28.079 StepDefinitions:57 - Current Step : Default Step
+[INFO ] 2022-05-10 10:25:28.083 Mapper:102 - BY GENERATE :cssSelector-"#dengage-push-perm-slide > div > div.dn-slide-body > div > button.dn-slide-deny-btn"
+[INFO ] 2022-05-10 10:25:28.085 Mapper:80 - BY :By.cssSelector: #dengage-push-perm-slide > div > div.dn-slide-body > div > button.dn-slide-deny-btn
+[INFO ] 2022-05-10 10:25:28.101 BasePage:612 - Wait all complete !
+[INFO ] 2022-05-10 10:25:31.787 BasePage:612 - Wait all complete !
+[INFO ] 2022-05-10 10:25:31.843 BasePage:519 - Element Displayed Control : By.cssSelector: #dengage-push-perm-slide > div > div.dn-slide-body > div > button.dn-slide-deny-btn
+[INFO ] 2022-05-10 10:25:31.857 BasePage:612 - Wait all complete !
+[INFO ] 2022-05-10 10:25:32.149 BasePage:389 - Element Clicked :[[ChromeDriver: chrome on MAC (8891fa6508107436f256fb885c9bb7df)] -> css selector: #dengage-push-perm-slide > div > div.dn-slide-body > div > button.dn-slide-deny-btn]
+[INFO ] 2022-05-10 10:25:32.591 StepDefinitions:57 - Current Step : Default Step
+[INFO ] 2022-05-10 10:25:32.595 Mapper:102 - BY GENERATE :cssSelector-"#header > div > div > div.hMedMenu > div.customMenu > div.myAccountHolder.customMenuItem.withLocalization > div > div > a.btnSignIn"
+[INFO ] 2022-05-10 10:25:32.595 Mapper:80 - BY :By.cssSelector: #header > div > div > div.hMedMenu > div.customMenu > div.myAccountHolder.customMenuItem.withLocalization > div > div > a.btnSignIn
+[INFO ] 2022-05-10 10:25:32.609 BasePage:612 - Wait all complete !
+[INFO ] 2022-05-10 10:25:32.678 BasePage:612 - Wait all complete !
+[INFO ] 2022-05-10 10:25:32.721 BasePage:519 - Element Displayed Control : By.cssSelector: #header > div > div > div.hMedMenu > div.customMenu > div.myAccountHolder.customMenuItem.withLocalization > div > div > a.btnSignIn
+[INFO ] 2022-05-10 10:25:32.735 BasePage:612 - Wait all complete !
+[INFO ] 2022-05-10 10:25:32.785 BasePage:389 - Element Clicked :[[ChromeDriver: chrome on MAC (8891fa6508107436f256fb885c9bb7df)] -> css selector: #header > div > div > div.hMedMenu > div.customMenu > div.myAccountHolder.customMenuItem.withLocalization > div > div > a.btnSignIn]
+[INFO ] 2022-05-10 10:26:04.638 StepDefinitions:57 - Current Step : Default Step
+[INFO ] 2022-05-10 10:26:04.661 Mapper:102 - BY GENERATE :id-"email"
+[INFO ] 2022-05-10 10:26:04.669 Mapper:80 - BY :By.id: email
+[INFO ] 2022-05-10 10:26:05.075 BasePage:612 - Wait all complete !
+[INFO ] 2022-05-10 10:26:05.484 BasePage:490 - Element Send Keys : testaeg@yandex.com.tr-[[ChromeDriver: chrome on MAC (8891fa6508107436f256fb885c9bb7df)] -> id: email]
+[INFO ] 2022-05-10 10:26:07.087 StepDefinitions:57 - Current Step : Default Step
+[INFO ] 2022-05-10 10:26:07.116 Mapper:102 - BY GENERATE :id-"password"
+[INFO ] 2022-05-10 10:26:07.116 Mapper:80 - BY :By.id: password
+[INFO ] 2022-05-10 10:26:07.330 BasePage:612 - Wait all complete !
+[INFO ] 2022-05-10 10:26:07.499 BasePage:490 - Element Send Keys : 123456789asd-[[ChromeDriver: chrome on MAC (8891fa6508107436f256fb885c9bb7df)] -> id: password]
+[INFO ] 2022-05-10 10:26:08.708 StepDefinitions:57 - Current Step : Default Step
+[INFO ] 2022-05-10 10:26:08.726 Mapper:102 - BY GENERATE :id-"loginButton"
+[INFO ] 2022-05-10 10:26:08.726 Mapper:80 - BY :By.id: loginButton
+[INFO ] 2022-05-10 10:26:08.767 BasePage:612 - Wait all complete !
+[INFO ] 2022-05-10 10:26:09.015 BasePage:612 - Wait all complete !
+[INFO ] 2022-05-10 10:26:09.096 BasePage:519 - Element Displayed Control : By.id: loginButton
+[INFO ] 2022-05-10 10:26:09.119 BasePage:612 - Wait all complete !
+[INFO ] 2022-05-10 10:26:09.159 BasePage:389 - Element Clicked :[[ChromeDriver: chrome on MAC (8891fa6508107436f256fb885c9bb7df)] -> id: loginButton]
+[INFO ] 2022-05-10 10:26:14.103 StepDefinitions:57 - Current Step : Default Step
+[INFO ] 2022-05-10 10:26:14.108 Mapper:102 - BY GENERATE :id-"searchData"
+[INFO ] 2022-05-10 10:26:14.109 Mapper:80 - BY :By.id: searchData
+[INFO ] 2022-05-10 10:26:14.175 BasePage:612 - Wait all complete !
+[ERROR] 2022-05-10 10:27:17.193 BasePage:483 - ERROR :
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.id: searchData (tried for 60 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95) ~[selenium-support-3.141.59.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272) ~[selenium-support-3.141.59.jar:?]
+	at BasePage.untilElementPresence(BasePage.java:225) ~[classes/:?]
+	at BasePage.findElement(BasePage.java:87) ~[classes/:?]
+	at BasePage.sendKeys(BasePage.java:481) ~[classes/:?]
+	at BasePage.sendKeys(BasePage.java:466) ~[classes/:?]
+	at StepDefinitions.sendKeysandSearch(StepDefinitions.java:115) ~[classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_202]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_202]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_202]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_202]
+	at io.cucumber.java.Invoker.invoke(Invoker.java:27) ~[cucumber-java-5.6.0.jar:?]
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:27) ~[cucumber-java-5.6.0.jar:?]
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63) ~[cucumber-core-5.6.0.jar:?]
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:64) ~[cucumber-core-5.6.0.jar:?]
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:49) ~[cucumber-core-5.6.0.jar:?]
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:46) ~[cucumber-core-5.6.0.jar:?]
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:51) ~[cucumber-core-5.6.0.jar:?]
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:67) ~[cucumber-core-5.6.0.jar:?]
+	at io.cucumber.core.runtime.Runtime.lambda$run$2(Runtime.java:100) ~[cucumber-core-5.6.0.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_202]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_202]
+	at io.cucumber.core.runtime.Runtime$SameThreadExecutorService.execute(Runtime.java:243) ~[cucumber-core-5.6.0.jar:?]
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:112) ~[?:1.8.0_202]
+	at io.cucumber.core.runtime.Runtime.lambda$run$3(Runtime.java:100) ~[cucumber-core-5.6.0.jar:?]
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193) [?:1.8.0_202]
+	at java.util.stream.SliceOps$1$1.accept(SliceOps.java:204) [?:1.8.0_202]
+	at java.util.ArrayList$ArrayListSpliterator.tryAdvance(ArrayList.java:1359) [?:1.8.0_202]
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126) [?:1.8.0_202]
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498) [?:1.8.0_202]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485) [?:1.8.0_202]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471) [?:1.8.0_202]
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708) [?:1.8.0_202]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) [?:1.8.0_202]
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499) [?:1.8.0_202]
+	at io.cucumber.core.runtime.Runtime.run(Runtime.java:101) [cucumber-core-5.6.0.jar:?]
+	at io.cucumber.core.cli.Main.run(Main.java:75) [cucumber-core-5.6.0.jar:?]
+	at cucumber.api.cli.Main.run(Main.java:28) [cucumber-core-5.6.0.jar:?]
+	at cucumber.api.cli.Main.main(Main.java:15) [cucumber-core-5.6.0.jar:?]
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"searchData"}
+  (Session info: chrome=101.0.4951.54)
+  (Driver info: chromedriver=101.0.4951.41 (93c720db8323b3ec10d056025ab95c23a31997c9-refs/branch-heads/4951@{#904}),platform=Mac OS X 12.2.1 arm64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Air-3.local', ip: 'fe80:0:0:0:10e9:8190:5851:cef1%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: /var/folders/sq/zct5_f_j56l...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:53697}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 101.0.4951.54, webStorageEnabled: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8891fa6508107436f256fb885c9bb7df
+*** Element info: {Using=id, value=searchData}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_202]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:1.8.0_202]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:1.8.0_202]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[?:1.8.0_202]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.By$ById.findElement(By.java:188) ~[selenium-api-3.141.59.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:182) ~[selenium-support-3.141.59.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:179) ~[selenium-support-3.141.59.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249) ~[selenium-support-3.141.59.jar:?]
+	... 37 more
+[ERROR] 2022-05-10 10:32:59.962 StepDefinitions:50 - Timed out waiting for driver server to start.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Air-3.local', ip: 'fe80:0:0:0:10e9:8190:5851:cef1%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_202'
+Driver info: driver.version: ChromeDriver
+org.openqa.selenium.WebDriverException: Timed out waiting for driver server to start.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Air-3.local', ip: 'fe80:0:0:0:10e9:8190:5851:cef1%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_202'
+Driver info: driver.version: ChromeDriver
+	at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:202) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:188) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:79) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181) ~[selenium-chrome-driver-3.141.59.jar:?]
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168) ~[selenium-chrome-driver-3.141.59.jar:?]
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:157) ~[selenium-chrome-driver-3.141.59.jar:?]
+	at Browser.setBrowser(Browser.java:43) ~[classes/:?]
+	at StepDefinitions.setUp(StepDefinitions.java:46) ~[classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_202]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_202]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_202]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_202]
+	at io.cucumber.java.Invoker.invoke(Invoker.java:27) ~[cucumber-java-5.6.0.jar:?]
+	at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:61) ~[cucumber-java-5.6.0.jar:?]
+	at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:31) ~[cucumber-core-5.6.0.jar:?]
+	at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:20) ~[cucumber-core-5.6.0.jar:?]
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:64) ~[cucumber-core-5.6.0.jar:?]
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:49) ~[cucumber-core-5.6.0.jar:?]
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:47) ~[cucumber-core-5.6.0.jar:?]
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:67) ~[cucumber-core-5.6.0.jar:?]
+	at io.cucumber.core.runtime.Runtime.lambda$run$2(Runtime.java:100) ~[cucumber-core-5.6.0.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_202]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_202]
+	at io.cucumber.core.runtime.Runtime$SameThreadExecutorService.execute(Runtime.java:243) ~[cucumber-core-5.6.0.jar:?]
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:112) ~[?:1.8.0_202]
+	at io.cucumber.core.runtime.Runtime.lambda$run$3(Runtime.java:100) ~[cucumber-core-5.6.0.jar:?]
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193) [?:1.8.0_202]
+	at java.util.stream.SliceOps$1$1.accept(SliceOps.java:204) [?:1.8.0_202]
+	at java.util.ArrayList$ArrayListSpliterator.tryAdvance(ArrayList.java:1359) [?:1.8.0_202]
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126) [?:1.8.0_202]
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498) [?:1.8.0_202]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485) [?:1.8.0_202]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471) [?:1.8.0_202]
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708) [?:1.8.0_202]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) [?:1.8.0_202]
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499) [?:1.8.0_202]
+	at io.cucumber.core.runtime.Runtime.run(Runtime.java:101) [cucumber-core-5.6.0.jar:?]
+	at io.cucumber.core.cli.Main.run(Main.java:75) [cucumber-core-5.6.0.jar:?]
+	at cucumber.api.cli.Main.run(Main.java:28) [cucumber-core-5.6.0.jar:?]
+	at cucumber.api.cli.Main.main(Main.java:15) [cucumber-core-5.6.0.jar:?]
+Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:8403/status] to be available after 20023 ms
+	at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:100) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:197) ~[selenium-remote-driver-3.141.59.jar:?]
+	... 42 more
+Caused by: java.util.concurrent.TimeoutException
+	at java.util.concurrent.FutureTask.get(FutureTask.java:205) ~[?:1.8.0_202]
+	at com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:156) ~[guava-25.0-jre.jar:?]
+	at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:75) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:197) ~[selenium-remote-driver-3.141.59.jar:?]
+	... 42 more
+[ERROR] 2022-05-10 10:36:29.748 StepDefinitions:50 - Timed out waiting for driver server to start.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Air-3.local', ip: 'fe80:0:0:0:10e9:8190:5851:cef1%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_202'
+Driver info: driver.version: ChromeDriver
+org.openqa.selenium.WebDriverException: Timed out waiting for driver server to start.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Air-3.local', ip: 'fe80:0:0:0:10e9:8190:5851:cef1%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_202'
+Driver info: driver.version: ChromeDriver
+	at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:202) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:188) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:79) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181) ~[selenium-chrome-driver-3.141.59.jar:?]
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168) ~[selenium-chrome-driver-3.141.59.jar:?]
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:157) ~[selenium-chrome-driver-3.141.59.jar:?]
+	at Browser.setBrowser(Browser.java:43) ~[classes/:?]
+	at StepDefinitions.setUp(StepDefinitions.java:46) ~[classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_202]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_202]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_202]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_202]
+	at io.cucumber.java.Invoker.invoke(Invoker.java:27) ~[cucumber-java-5.6.0.jar:?]
+	at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:61) ~[cucumber-java-5.6.0.jar:?]
+	at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:31) ~[cucumber-core-5.6.0.jar:?]
+	at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:20) ~[cucumber-core-5.6.0.jar:?]
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:64) ~[cucumber-core-5.6.0.jar:?]
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:49) ~[cucumber-core-5.6.0.jar:?]
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:47) ~[cucumber-core-5.6.0.jar:?]
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:67) ~[cucumber-core-5.6.0.jar:?]
+	at io.cucumber.core.runtime.Runtime.lambda$run$2(Runtime.java:100) ~[cucumber-core-5.6.0.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_202]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_202]
+	at io.cucumber.core.runtime.Runtime$SameThreadExecutorService.execute(Runtime.java:243) ~[cucumber-core-5.6.0.jar:?]
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:112) ~[?:1.8.0_202]
+	at io.cucumber.core.runtime.Runtime.lambda$run$3(Runtime.java:100) ~[cucumber-core-5.6.0.jar:?]
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193) [?:1.8.0_202]
+	at java.util.stream.SliceOps$1$1.accept(SliceOps.java:204) [?:1.8.0_202]
+	at java.util.ArrayList$ArrayListSpliterator.tryAdvance(ArrayList.java:1359) [?:1.8.0_202]
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126) [?:1.8.0_202]
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498) [?:1.8.0_202]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485) [?:1.8.0_202]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471) [?:1.8.0_202]
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708) [?:1.8.0_202]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) [?:1.8.0_202]
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499) [?:1.8.0_202]
+	at io.cucumber.core.runtime.Runtime.run(Runtime.java:101) [cucumber-core-5.6.0.jar:?]
+	at io.cucumber.core.cli.Main.run(Main.java:75) [cucumber-core-5.6.0.jar:?]
+	at cucumber.api.cli.Main.run(Main.java:28) [cucumber-core-5.6.0.jar:?]
+	at cucumber.api.cli.Main.main(Main.java:15) [cucumber-core-5.6.0.jar:?]
+Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:44897/status] to be available after 20042 ms
+	at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:100) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:197) ~[selenium-remote-driver-3.141.59.jar:?]
+	... 42 more
+Caused by: java.util.concurrent.TimeoutException
+	at java.util.concurrent.FutureTask.get(FutureTask.java:205) ~[?:1.8.0_202]
+	at com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:156) ~[guava-25.0-jre.jar:?]
+	at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:75) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:197) ~[selenium-remote-driver-3.141.59.jar:?]
+	... 42 more
+[ERROR] 2022-05-10 11:19:13.938 StepDefinitions:50 - The driver is not executable: /Users/sahabt/Downloads/n11-demo-main/properties/driver/chromedriver_mac
+java.lang.IllegalStateException: The driver is not executable: /Users/sahabt/Downloads/n11-demo-main/properties/driver/chromedriver_mac
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585) ~[guava-25.0-jre.jar:?]
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:150) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35) ~[selenium-chrome-driver-3.141.59.jar:?]
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159) ~[selenium-chrome-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94) ~[selenium-chrome-driver-3.141.59.jar:?]
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:157) ~[selenium-chrome-driver-3.141.59.jar:?]
+	at Browser.setBrowser(Browser.java:43) ~[classes/:?]
+	at StepDefinitions.setUp(StepDefinitions.java:46) ~[classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_202]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_202]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_202]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_202]
+	at io.cucumber.java.Invoker.invoke(Invoker.java:27) ~[cucumber-java-5.6.0.jar:?]
+	at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:61) ~[cucumber-java-5.6.0.jar:?]
+	at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:31) ~[cucumber-core-5.6.0.jar:?]
+	at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:20) ~[cucumber-core-5.6.0.jar:?]
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:64) ~[cucumber-core-5.6.0.jar:?]
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:49) ~[cucumber-core-5.6.0.jar:?]
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:47) ~[cucumber-core-5.6.0.jar:?]
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:67) ~[cucumber-core-5.6.0.jar:?]
+	at io.cucumber.core.runtime.Runtime.lambda$run$2(Runtime.java:100) ~[cucumber-core-5.6.0.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_202]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_202]
+	at io.cucumber.core.runtime.Runtime$SameThreadExecutorService.execute(Runtime.java:243) ~[cucumber-core-5.6.0.jar:?]
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:112) ~[?:1.8.0_202]
+	at io.cucumber.core.runtime.Runtime.lambda$run$3(Runtime.java:100) ~[cucumber-core-5.6.0.jar:?]
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193) [?:1.8.0_202]
+	at java.util.stream.SliceOps$1$1.accept(SliceOps.java:204) [?:1.8.0_202]
+	at java.util.ArrayList$ArrayListSpliterator.tryAdvance(ArrayList.java:1359) [?:1.8.0_202]
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126) [?:1.8.0_202]
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498) [?:1.8.0_202]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485) [?:1.8.0_202]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471) [?:1.8.0_202]
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708) [?:1.8.0_202]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) [?:1.8.0_202]
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499) [?:1.8.0_202]
+	at io.cucumber.core.runtime.Runtime.run(Runtime.java:101) [cucumber-core-5.6.0.jar:?]
+	at io.cucumber.core.cli.Main.run(Main.java:75) [cucumber-core-5.6.0.jar:?]
+	at cucumber.api.cli.Main.run(Main.java:28) [cucumber-core-5.6.0.jar:?]
+	at cucumber.api.cli.Main.main(Main.java:15) [cucumber-core-5.6.0.jar:?]

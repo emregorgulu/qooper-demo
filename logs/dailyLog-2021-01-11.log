@@ -1,0 +1,259 @@
+[INFO ] 2021-01-11 20:31:04.241 StepDefinitions:57 - Current Step : Default Step
+[INFO ] 2021-01-11 20:31:04.311 Mapper:102 - BY GENERATE :cssSelector-"#header > div > h1 > a > img"
+[INFO ] 2021-01-11 20:31:04.315 Mapper:80 - BY :By.cssSelector: #header > div > h1 > a > img
+[INFO ] 2021-01-11 20:31:04.315 BasePage:519 - Element Displayed Control : By.cssSelector: #header > div > h1 > a > img
+[INFO ] 2021-01-11 20:31:04.352 BasePage:612 - Wait all complete !
+[INFO ] 2021-01-11 20:31:04.406 StepDefinitions:57 - Current Step : Default Step
+[INFO ] 2021-01-11 20:31:04.407 Mapper:102 - BY GENERATE :cssSelector-"#userKvkkModal > div > div.btnHolder > span"
+[INFO ] 2021-01-11 20:31:04.407 Mapper:80 - BY :By.cssSelector: #userKvkkModal > div > div.btnHolder > span
+[INFO ] 2021-01-11 20:31:04.408 BasePage:519 - Element Displayed Control : By.cssSelector: #userKvkkModal > div > div.btnHolder > span
+[INFO ] 2021-01-11 20:31:04.433 BasePage:612 - Wait all complete !
+[INFO ] 2021-01-11 20:31:04.476 Mapper:102 - BY GENERATE :cssSelector-"#userKvkkModal > div > div.btnHolder > span"
+[INFO ] 2021-01-11 20:31:04.476 Mapper:80 - BY :By.cssSelector: #userKvkkModal > div > div.btnHolder > span
+[INFO ] 2021-01-11 20:31:04.489 BasePage:612 - Wait all complete !
+[INFO ] 2021-01-11 20:31:04.564 BasePage:612 - Wait all complete !
+[INFO ] 2021-01-11 20:31:04.614 BasePage:519 - Element Displayed Control : By.cssSelector: #userKvkkModal > div > div.btnHolder > span
+[INFO ] 2021-01-11 20:31:04.635 BasePage:612 - Wait all complete !
+[INFO ] 2021-01-11 20:31:04.705 BasePage:389 - Element Clicked :[[ChromeDriver: chrome on MAC (80ff9c63544a25be20eb8d20b491b563)] -> css selector: #userKvkkModal > div > div.btnHolder > span]
+[INFO ] 2021-01-11 20:31:04.777 StepDefinitions:57 - Current Step : Default Step
+[INFO ] 2021-01-11 20:31:04.778 Mapper:102 - BY GENERATE :cssSelector-"#dengage-push-perm-slide > div > div.dn-slide-body > div > button.dn-slide-deny-btn"
+[INFO ] 2021-01-11 20:31:04.778 Mapper:80 - BY :By.cssSelector: #dengage-push-perm-slide > div > div.dn-slide-body > div > button.dn-slide-deny-btn
+[INFO ] 2021-01-11 20:31:04.800 BasePage:612 - Wait all complete !
+[INFO ] 2021-01-11 20:31:09.783 BasePage:612 - Wait all complete !
+[INFO ] 2021-01-11 20:31:09.810 BasePage:519 - Element Displayed Control : By.cssSelector: #dengage-push-perm-slide > div > div.dn-slide-body > div > button.dn-slide-deny-btn
+[INFO ] 2021-01-11 20:31:09.824 BasePage:612 - Wait all complete !
+[INFO ] 2021-01-11 20:31:09.873 BasePage:389 - Element Clicked :[[ChromeDriver: chrome on MAC (80ff9c63544a25be20eb8d20b491b563)] -> css selector: #dengage-push-perm-slide > div > div.dn-slide-body > div > button.dn-slide-deny-btn]
+[INFO ] 2021-01-11 20:31:09.927 StepDefinitions:57 - Current Step : Default Step
+[INFO ] 2021-01-11 20:31:09.928 Mapper:102 - BY GENERATE :cssSelector-"#header > div > div > div.hMedMenu > div.customMenu > div.myAccountHolder.customMenuItem.withLocalization > div > div > a.btnSignIn"
+[INFO ] 2021-01-11 20:31:09.928 Mapper:80 - BY :By.cssSelector: #header > div > div > div.hMedMenu > div.customMenu > div.myAccountHolder.customMenuItem.withLocalization > div > div > a.btnSignIn
+[INFO ] 2021-01-11 20:31:09.940 BasePage:612 - Wait all complete !
+[INFO ] 2021-01-11 20:31:10.008 BasePage:612 - Wait all complete !
+[INFO ] 2021-01-11 20:31:10.043 BasePage:519 - Element Displayed Control : By.cssSelector: #header > div > div > div.hMedMenu > div.customMenu > div.myAccountHolder.customMenuItem.withLocalization > div > div > a.btnSignIn
+[INFO ] 2021-01-11 20:31:10.058 BasePage:612 - Wait all complete !
+[INFO ] 2021-01-11 20:31:10.111 BasePage:389 - Element Clicked :[[ChromeDriver: chrome on MAC (80ff9c63544a25be20eb8d20b491b563)] -> css selector: #header > div > div > div.hMedMenu > div.customMenu > div.myAccountHolder.customMenuItem.withLocalization > div > div > a.btnSignIn]
+[INFO ] 2021-01-11 20:31:11.427 StepDefinitions:57 - Current Step : Default Step
+[INFO ] 2021-01-11 20:31:11.428 Mapper:102 - BY GENERATE :id-"email"
+[INFO ] 2021-01-11 20:31:11.429 Mapper:80 - BY :By.id: email
+[INFO ] 2021-01-11 20:31:11.440 BasePage:612 - Wait all complete !
+[INFO ] 2021-01-11 20:31:11.518 BasePage:490 - Element Send Keys : testaeg@yandex.com.tr-[[ChromeDriver: chrome on MAC (80ff9c63544a25be20eb8d20b491b563)] -> id: email]
+[INFO ] 2021-01-11 20:31:11.646 StepDefinitions:57 - Current Step : Default Step
+[INFO ] 2021-01-11 20:31:11.647 Mapper:102 - BY GENERATE :id-"password"
+[INFO ] 2021-01-11 20:31:11.647 Mapper:80 - BY :By.id: password
+[INFO ] 2021-01-11 20:31:11.659 BasePage:612 - Wait all complete !
+[INFO ] 2021-01-11 20:31:11.709 BasePage:490 - Element Send Keys : 123456789asd-[[ChromeDriver: chrome on MAC (80ff9c63544a25be20eb8d20b491b563)] -> id: password]
+[INFO ] 2021-01-11 20:31:11.801 StepDefinitions:57 - Current Step : Default Step
+[INFO ] 2021-01-11 20:31:11.802 Mapper:102 - BY GENERATE :id-"loginButton"
+[INFO ] 2021-01-11 20:31:11.802 Mapper:80 - BY :By.id: loginButton
+[INFO ] 2021-01-11 20:31:11.814 BasePage:612 - Wait all complete !
+[INFO ] 2021-01-11 20:31:11.869 BasePage:612 - Wait all complete !
+[INFO ] 2021-01-11 20:31:11.904 BasePage:519 - Element Displayed Control : By.id: loginButton
+[INFO ] 2021-01-11 20:31:11.917 BasePage:612 - Wait all complete !
+[INFO ] 2021-01-11 20:31:11.965 BasePage:389 - Element Clicked :[[ChromeDriver: chrome on MAC (80ff9c63544a25be20eb8d20b491b563)] -> id: loginButton]
+[INFO ] 2021-01-11 20:31:13.708 StepDefinitions:57 - Current Step : Default Step
+[INFO ] 2021-01-11 20:31:13.710 Mapper:102 - BY GENERATE :id-"searchData"
+[INFO ] 2021-01-11 20:31:13.710 Mapper:80 - BY :By.id: searchData
+[INFO ] 2021-01-11 20:31:13.725 BasePage:612 - Wait all complete !
+[INFO ] 2021-01-11 20:31:13.838 BasePage:490 - Element Send Keys : samsung-[[ChromeDriver: chrome on MAC (80ff9c63544a25be20eb8d20b491b563)] -> id: searchData]
+[INFO ] 2021-01-11 20:31:13.955 Mapper:102 - BY GENERATE :id-"searchData"
+[INFO ] 2021-01-11 20:31:13.955 Mapper:80 - BY :By.id: searchData
+[INFO ] 2021-01-11 20:31:15.142 StepDefinitions:57 - Current Step : Default Step
+[INFO ] 2021-01-11 20:31:15.142 StepDefinitions:241 - ARANILAN DEĞER :1
+[INFO ] 2021-01-11 20:31:15.143 Mapper:102 - BY GENERATE :cssSelector-"#contentListing > div > div > div.productArea > div.pagination > a.active"
+[INFO ] 2021-01-11 20:31:15.143 Mapper:80 - BY :By.cssSelector: #contentListing > div > div > div.productArea > div.pagination > a.active
+[INFO ] 2021-01-11 20:31:15.155 BasePage:612 - Wait all complete !
+[INFO ] 2021-01-11 20:31:15.325 StepDefinitions:242 - BULUNAN DEĞER :1
+[INFO ] 2021-01-11 20:31:15.326 Mapper:102 - BY GENERATE :cssSelector-"#contentListing > div > div > div.productArea > div.pagination > a.active"
+[INFO ] 2021-01-11 20:31:15.326 Mapper:80 - BY :By.cssSelector: #contentListing > div > div > div.productArea > div.pagination > a.active
+[INFO ] 2021-01-11 20:31:15.339 BasePage:612 - Wait all complete !
+[INFO ] 2021-01-11 20:31:15.384 StepDefinitions:57 - Current Step : Default Step
+[INFO ] 2021-01-11 20:31:15.385 BasePage:561 - Navigate to Url : https://www.n11.com/arama?q=samsung&pg=2
+[INFO ] 2021-01-11 20:31:16.731 StepDefinitions:57 - Current Step : Default Step
+[INFO ] 2021-01-11 20:31:16.732 StepDefinitions:241 - ARANILAN DEĞER :2
+[INFO ] 2021-01-11 20:31:16.733 Mapper:102 - BY GENERATE :cssSelector-"#contentListing > div > div > div.productArea > div.pagination > a.active"
+[INFO ] 2021-01-11 20:31:16.734 Mapper:80 - BY :By.cssSelector: #contentListing > div > div > div.productArea > div.pagination > a.active
+[INFO ] 2021-01-11 20:31:16.852 BasePage:612 - Wait all complete !
+[INFO ] 2021-01-11 20:31:16.906 StepDefinitions:242 - BULUNAN DEĞER :2
+[INFO ] 2021-01-11 20:31:16.906 Mapper:102 - BY GENERATE :cssSelector-"#contentListing > div > div > div.productArea > div.pagination > a.active"
+[INFO ] 2021-01-11 20:31:16.906 Mapper:80 - BY :By.cssSelector: #contentListing > div > div > div.productArea > div.pagination > a.active
+[INFO ] 2021-01-11 20:31:16.917 BasePage:612 - Wait all complete !
+[INFO ] 2021-01-11 20:31:16.960 StepDefinitions:57 - Current Step : Default Step
+[INFO ] 2021-01-11 20:31:17.128 StepDefinitions:57 - Current Step : Default Step
+[INFO ] 2021-01-11 20:31:17.128 BasePage:561 - Navigate to Url : https://www.n11.com/hesabim/favorilerim
+[INFO ] 2021-01-11 20:31:18.174 StepDefinitions:57 - Current Step : Default Step
+[INFO ] 2021-01-11 20:31:18.212 StepDefinitions:57 - Current Step : Default Step
+[INFO ] 2021-01-11 20:31:18.213 Mapper:102 - BY GENERATE :cssSelector-"#view > ul > li > div > div > a > h3"
+[INFO ] 2021-01-11 20:31:18.214 Mapper:80 - BY :By.cssSelector: #view > ul > li > div > div > a > h3
+[INFO ] 2021-01-11 20:31:18.326 StepDefinitions:361 - #view > ul > li:nth-child(0) > div > div.wishProBtns > span
+[ERROR] 2021-01-11 20:31:28.364 StepDefinitions:364 - no such element: Unable to locate element: {"method":"css selector","selector":"#view > ul > li:nth-child(0) > div > div.wishProBtns > span"}
+  (Session info: chrome=87.0.4280.141)
+  (Driver info: chromedriver=87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}),platform=Mac OS X 11.0.0 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'AEG-MacBook-Pro-SahaBT.local', ip: 'fe80:0:0:0:18af:a393:6646:fa76%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: /var/folders/sq/zct5_f_j56l...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:62257}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 87.0.4280.141, webStorageEnabled: true, webauthn:virtualAuthenticators: true}
+Session ID: 80ff9c63544a25be20eb8d20b491b563
+*** Element info: {Using=css selector, value=#view > ul > li:nth-child(0) > div > div.wishProBtns > span}
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#view > ul > li:nth-child(0) > div > div.wishProBtns > span"}
+  (Session info: chrome=87.0.4280.141)
+  (Driver info: chromedriver=87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}),platform=Mac OS X 11.0.0 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'AEG-MacBook-Pro-SahaBT.local', ip: 'fe80:0:0:0:18af:a393:6646:fa76%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: /var/folders/sq/zct5_f_j56l...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:62257}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 87.0.4280.141, webStorageEnabled: true, webauthn:virtualAuthenticators: true}
+Session ID: 80ff9c63544a25be20eb8d20b491b563
+*** Element info: {Using=css selector, value=#view > ul > li:nth-child(0) > div > div.wishProBtns > span}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_202]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:1.8.0_202]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:1.8.0_202]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[?:1.8.0_202]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420) ~[selenium-remote-driver-3.141.59.jar:?]
+	at StepDefinitions.removeFavoritesOnListByParameter(StepDefinitions.java:362) ~[classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_202]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_202]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_202]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_202]
+	at io.cucumber.java.Invoker.invoke(Invoker.java:27) ~[cucumber-java-5.6.0.jar:?]
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:27) ~[cucumber-java-5.6.0.jar:?]
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63) ~[cucumber-core-5.6.0.jar:?]
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:64) ~[cucumber-core-5.6.0.jar:?]
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:49) ~[cucumber-core-5.6.0.jar:?]
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:46) ~[cucumber-core-5.6.0.jar:?]
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:51) ~[cucumber-core-5.6.0.jar:?]
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:67) ~[cucumber-core-5.6.0.jar:?]
+	at io.cucumber.core.runtime.Runtime.lambda$run$2(Runtime.java:100) ~[cucumber-core-5.6.0.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_202]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_202]
+	at io.cucumber.core.runtime.Runtime$SameThreadExecutorService.execute(Runtime.java:243) ~[cucumber-core-5.6.0.jar:?]
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:112) ~[?:1.8.0_202]
+	at io.cucumber.core.runtime.Runtime.lambda$run$3(Runtime.java:100) ~[cucumber-core-5.6.0.jar:?]
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193) [?:1.8.0_202]
+	at java.util.stream.SliceOps$1$1.accept(SliceOps.java:204) [?:1.8.0_202]
+	at java.util.ArrayList$ArrayListSpliterator.tryAdvance(ArrayList.java:1359) [?:1.8.0_202]
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126) [?:1.8.0_202]
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498) [?:1.8.0_202]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485) [?:1.8.0_202]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471) [?:1.8.0_202]
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708) [?:1.8.0_202]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) [?:1.8.0_202]
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499) [?:1.8.0_202]
+	at io.cucumber.core.runtime.Runtime.run(Runtime.java:101) [cucumber-core-5.6.0.jar:?]
+	at io.cucumber.core.cli.Main.run(Main.java:75) [cucumber-core-5.6.0.jar:?]
+	at cucumber.api.cli.Main.run(Main.java:28) [cucumber-core-5.6.0.jar:?]
+	at cucumber.api.cli.Main.main(Main.java:15) [cucumber-core-5.6.0.jar:?]
+[INFO ] 2021-01-11 20:32:51.068 StepDefinitions:57 - Current Step : Default Step
+[INFO ] 2021-01-11 20:32:51.125 Mapper:102 - BY GENERATE :cssSelector-"#header > div > h1 > a > img"
+[INFO ] 2021-01-11 20:32:51.128 Mapper:80 - BY :By.cssSelector: #header > div > h1 > a > img
+[INFO ] 2021-01-11 20:32:51.129 BasePage:519 - Element Displayed Control : By.cssSelector: #header > div > h1 > a > img
+[INFO ] 2021-01-11 20:32:51.149 BasePage:612 - Wait all complete !
+[INFO ] 2021-01-11 20:32:51.206 StepDefinitions:57 - Current Step : Default Step
+[INFO ] 2021-01-11 20:32:51.207 Mapper:102 - BY GENERATE :cssSelector-"#userKvkkModal > div > div.btnHolder > span"
+[INFO ] 2021-01-11 20:32:51.207 Mapper:80 - BY :By.cssSelector: #userKvkkModal > div > div.btnHolder > span
+[INFO ] 2021-01-11 20:32:51.207 BasePage:519 - Element Displayed Control : By.cssSelector: #userKvkkModal > div > div.btnHolder > span
+[INFO ] 2021-01-11 20:32:51.225 BasePage:612 - Wait all complete !
+[INFO ] 2021-01-11 20:32:51.274 Mapper:102 - BY GENERATE :cssSelector-"#userKvkkModal > div > div.btnHolder > span"
+[INFO ] 2021-01-11 20:32:51.275 Mapper:80 - BY :By.cssSelector: #userKvkkModal > div > div.btnHolder > span
+[INFO ] 2021-01-11 20:32:51.287 BasePage:612 - Wait all complete !
+[INFO ] 2021-01-11 20:32:51.362 BasePage:612 - Wait all complete !
+[INFO ] 2021-01-11 20:32:51.407 BasePage:519 - Element Displayed Control : By.cssSelector: #userKvkkModal > div > div.btnHolder > span
+[INFO ] 2021-01-11 20:32:51.419 BasePage:612 - Wait all complete !
+[INFO ] 2021-01-11 20:32:51.466 BasePage:389 - Element Clicked :[[ChromeDriver: chrome on MAC (e326e94dd908a487f6dc631cc4a9a76b)] -> css selector: #userKvkkModal > div > div.btnHolder > span]
+[INFO ] 2021-01-11 20:32:51.535 StepDefinitions:57 - Current Step : Default Step
+[INFO ] 2021-01-11 20:32:51.537 Mapper:102 - BY GENERATE :cssSelector-"#dengage-push-perm-slide > div > div.dn-slide-body > div > button.dn-slide-deny-btn"
+[INFO ] 2021-01-11 20:32:51.537 Mapper:80 - BY :By.cssSelector: #dengage-push-perm-slide > div > div.dn-slide-body > div > button.dn-slide-deny-btn
+[INFO ] 2021-01-11 20:32:51.556 BasePage:612 - Wait all complete !
+[INFO ] 2021-01-11 20:32:56.630 BasePage:612 - Wait all complete !
+[INFO ] 2021-01-11 20:32:56.660 BasePage:519 - Element Displayed Control : By.cssSelector: #dengage-push-perm-slide > div > div.dn-slide-body > div > button.dn-slide-deny-btn
+[INFO ] 2021-01-11 20:32:56.674 BasePage:612 - Wait all complete !
+[INFO ] 2021-01-11 20:32:56.724 BasePage:389 - Element Clicked :[[ChromeDriver: chrome on MAC (e326e94dd908a487f6dc631cc4a9a76b)] -> css selector: #dengage-push-perm-slide > div > div.dn-slide-body > div > button.dn-slide-deny-btn]
+[INFO ] 2021-01-11 20:32:56.772 StepDefinitions:57 - Current Step : Default Step
+[INFO ] 2021-01-11 20:32:56.773 Mapper:102 - BY GENERATE :cssSelector-"#header > div > div > div.hMedMenu > div.customMenu > div.myAccountHolder.customMenuItem.withLocalization > div > div > a.btnSignIn"
+[INFO ] 2021-01-11 20:32:56.774 Mapper:80 - BY :By.cssSelector: #header > div > div > div.hMedMenu > div.customMenu > div.myAccountHolder.customMenuItem.withLocalization > div > div > a.btnSignIn
+[INFO ] 2021-01-11 20:32:56.786 BasePage:612 - Wait all complete !
+[INFO ] 2021-01-11 20:32:56.863 BasePage:612 - Wait all complete !
+[INFO ] 2021-01-11 20:32:56.902 BasePage:519 - Element Displayed Control : By.cssSelector: #header > div > div > div.hMedMenu > div.customMenu > div.myAccountHolder.customMenuItem.withLocalization > div > div > a.btnSignIn
+[INFO ] 2021-01-11 20:32:56.914 BasePage:612 - Wait all complete !
+[INFO ] 2021-01-11 20:32:56.969 BasePage:389 - Element Clicked :[[ChromeDriver: chrome on MAC (e326e94dd908a487f6dc631cc4a9a76b)] -> css selector: #header > div > div > div.hMedMenu > div.customMenu > div.myAccountHolder.customMenuItem.withLocalization > div > div > a.btnSignIn]
+[INFO ] 2021-01-11 20:32:57.935 StepDefinitions:57 - Current Step : Default Step
+[INFO ] 2021-01-11 20:32:57.936 Mapper:102 - BY GENERATE :id-"email"
+[INFO ] 2021-01-11 20:32:57.936 Mapper:80 - BY :By.id: email
+[INFO ] 2021-01-11 20:32:57.962 BasePage:612 - Wait all complete !
+[INFO ] 2021-01-11 20:32:58.037 BasePage:490 - Element Send Keys : testaeg@yandex.com.tr-[[ChromeDriver: chrome on MAC (e326e94dd908a487f6dc631cc4a9a76b)] -> id: email]
+[INFO ] 2021-01-11 20:32:58.168 StepDefinitions:57 - Current Step : Default Step
+[INFO ] 2021-01-11 20:32:58.169 Mapper:102 - BY GENERATE :id-"password"
+[INFO ] 2021-01-11 20:32:58.169 Mapper:80 - BY :By.id: password
+[INFO ] 2021-01-11 20:32:58.187 BasePage:612 - Wait all complete !
+[INFO ] 2021-01-11 20:32:58.255 BasePage:490 - Element Send Keys : 123456789asd-[[ChromeDriver: chrome on MAC (e326e94dd908a487f6dc631cc4a9a76b)] -> id: password]
+[INFO ] 2021-01-11 20:32:58.340 StepDefinitions:57 - Current Step : Default Step
+[INFO ] 2021-01-11 20:32:58.340 Mapper:102 - BY GENERATE :id-"loginButton"
+[INFO ] 2021-01-11 20:32:58.341 Mapper:80 - BY :By.id: loginButton
+[INFO ] 2021-01-11 20:32:58.352 BasePage:612 - Wait all complete !
+[INFO ] 2021-01-11 20:32:58.406 BasePage:612 - Wait all complete !
+[INFO ] 2021-01-11 20:32:58.438 BasePage:519 - Element Displayed Control : By.id: loginButton
+[INFO ] 2021-01-11 20:32:58.451 BasePage:612 - Wait all complete !
+[INFO ] 2021-01-11 20:32:58.494 BasePage:389 - Element Clicked :[[ChromeDriver: chrome on MAC (e326e94dd908a487f6dc631cc4a9a76b)] -> id: loginButton]
+[INFO ] 2021-01-11 20:33:00.156 StepDefinitions:57 - Current Step : Default Step
+[INFO ] 2021-01-11 20:33:00.158 Mapper:102 - BY GENERATE :id-"searchData"
+[INFO ] 2021-01-11 20:33:00.159 Mapper:80 - BY :By.id: searchData
+[INFO ] 2021-01-11 20:33:00.173 BasePage:612 - Wait all complete !
+[INFO ] 2021-01-11 20:33:00.357 BasePage:490 - Element Send Keys : samsung-[[ChromeDriver: chrome on MAC (e326e94dd908a487f6dc631cc4a9a76b)] -> id: searchData]
+[INFO ] 2021-01-11 20:33:00.469 Mapper:102 - BY GENERATE :id-"searchData"
+[INFO ] 2021-01-11 20:33:00.470 Mapper:80 - BY :By.id: searchData
+[INFO ] 2021-01-11 20:33:01.699 StepDefinitions:57 - Current Step : Default Step
+[INFO ] 2021-01-11 20:33:01.700 StepDefinitions:241 - ARANILAN DEĞER :1
+[INFO ] 2021-01-11 20:33:01.700 Mapper:102 - BY GENERATE :cssSelector-"#contentListing > div > div > div.productArea > div.pagination > a.active"
+[INFO ] 2021-01-11 20:33:01.700 Mapper:80 - BY :By.cssSelector: #contentListing > div > div > div.productArea > div.pagination > a.active
+[INFO ] 2021-01-11 20:33:01.712 BasePage:612 - Wait all complete !
+[INFO ] 2021-01-11 20:33:01.822 StepDefinitions:242 - BULUNAN DEĞER :1
+[INFO ] 2021-01-11 20:33:01.823 Mapper:102 - BY GENERATE :cssSelector-"#contentListing > div > div > div.productArea > div.pagination > a.active"
+[INFO ] 2021-01-11 20:33:01.823 Mapper:80 - BY :By.cssSelector: #contentListing > div > div > div.productArea > div.pagination > a.active
+[INFO ] 2021-01-11 20:33:01.840 BasePage:612 - Wait all complete !
+[INFO ] 2021-01-11 20:33:01.887 StepDefinitions:57 - Current Step : Default Step
+[INFO ] 2021-01-11 20:33:01.887 BasePage:561 - Navigate to Url : https://www.n11.com/arama?q=samsung&pg=2
+[INFO ] 2021-01-11 20:33:03.178 StepDefinitions:57 - Current Step : Default Step
+[INFO ] 2021-01-11 20:33:03.179 StepDefinitions:241 - ARANILAN DEĞER :2
+[INFO ] 2021-01-11 20:33:03.180 Mapper:102 - BY GENERATE :cssSelector-"#contentListing > div > div > div.productArea > div.pagination > a.active"
+[INFO ] 2021-01-11 20:33:03.180 Mapper:80 - BY :By.cssSelector: #contentListing > div > div > div.productArea > div.pagination > a.active
+[INFO ] 2021-01-11 20:33:03.256 BasePage:612 - Wait all complete !
+[INFO ] 2021-01-11 20:33:03.308 StepDefinitions:242 - BULUNAN DEĞER :2
+[INFO ] 2021-01-11 20:33:03.308 Mapper:102 - BY GENERATE :cssSelector-"#contentListing > div > div > div.productArea > div.pagination > a.active"
+[INFO ] 2021-01-11 20:33:03.309 Mapper:80 - BY :By.cssSelector: #contentListing > div > div > div.productArea > div.pagination > a.active
+[INFO ] 2021-01-11 20:33:03.322 BasePage:612 - Wait all complete !
+[INFO ] 2021-01-11 20:33:03.360 StepDefinitions:57 - Current Step : Default Step
+[INFO ] 2021-01-11 20:33:03.524 StepDefinitions:57 - Current Step : Default Step
+[INFO ] 2021-01-11 20:33:03.525 BasePage:561 - Navigate to Url : https://www.n11.com/hesabim/favorilerim
+[INFO ] 2021-01-11 20:33:04.577 StepDefinitions:57 - Current Step : Default Step
+[INFO ] 2021-01-11 20:33:04.604 StepDefinitions:57 - Current Step : Default Step
+[INFO ] 2021-01-11 20:33:04.607 Mapper:102 - BY GENERATE :cssSelector-"#view > ul > li > div > div > a > h3"
+[INFO ] 2021-01-11 20:33:04.607 Mapper:80 - BY :By.cssSelector: #view > ul > li > div > div > a > h3
+[INFO ] 2021-01-11 20:33:04.691 StepDefinitions:361 - #view > ul > li:nth-child(1) > div > div.wishProBtns > span
+[INFO ] 2021-01-11 20:33:04.798 StepDefinitions:57 - Current Step : Default Step
+[INFO ] 2021-01-11 20:33:04.799 StepDefinitions:183 - ARANILAN DEĞER :Ürününüz listeden silindi.
+[INFO ] 2021-01-11 20:33:04.800 Mapper:102 - BY GENERATE :cssSelector-"body > div.lightBox > div > span.message"
+[INFO ] 2021-01-11 20:33:04.800 Mapper:80 - BY :By.cssSelector: body > div.lightBox > div > span.message
+[INFO ] 2021-01-11 20:33:04.851 BasePage:612 - Wait all complete !
+[INFO ] 2021-01-11 20:33:04.912 StepDefinitions:184 - BULUNAN DEĞER :Ürününüz listeden silindi.
+[INFO ] 2021-01-11 20:33:04.914 Mapper:102 - BY GENERATE :cssSelector-"body > div.lightBox > div > span.message"
+[INFO ] 2021-01-11 20:33:04.914 Mapper:80 - BY :By.cssSelector: body > div.lightBox > div > span.message
+[INFO ] 2021-01-11 20:33:04.928 BasePage:612 - Wait all complete !
+[INFO ] 2021-01-11 20:33:04.970 StepDefinitions:57 - Current Step : Default Step
+[INFO ] 2021-01-11 20:33:04.971 Mapper:102 - BY GENERATE :cssSelector-"body > div.lightBox > div > div > span"
+[INFO ] 2021-01-11 20:33:04.972 Mapper:80 - BY :By.cssSelector: body > div.lightBox > div > div > span
+[INFO ] 2021-01-11 20:33:04.983 BasePage:612 - Wait all complete !
+[INFO ] 2021-01-11 20:33:05.039 BasePage:612 - Wait all complete !
+[INFO ] 2021-01-11 20:33:05.068 BasePage:519 - Element Displayed Control : By.cssSelector: body > div.lightBox > div > div > span
+[INFO ] 2021-01-11 20:33:05.081 BasePage:612 - Wait all complete !
+[INFO ] 2021-01-11 20:33:05.127 BasePage:389 - Element Clicked :[[ChromeDriver: chrome on MAC (e326e94dd908a487f6dc631cc4a9a76b)] -> css selector: body > div.lightBox > div > div > span]
+[INFO ] 2021-01-11 20:33:05.169 StepDefinitions:57 - Current Step : Default Step

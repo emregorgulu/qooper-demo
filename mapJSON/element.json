@@ -1,0 +1,41 @@
+{
+  "HOMEPAGE LOGO": {
+    "cssSelector": "#hs_cos_wrapper_Navbar > header > nav > a > img"
+  },
+  "LOGIN": {
+  "cssSelector": "#hs_cos_wrapper_Navbar > header > nav > div > div > a.kl-navbar__button.Navbar__button"
+},
+  "EMAIL": {
+    "cssSelector": "#top-layout > div > div > div > div > div > form > div:nth-child(1) > input"
+  } ,
+  "PASSWORD": {
+    "cssSelector": "#top-layout > div > div > div > div > div > form > div:nth-child(2) > input"
+  },
+  "SIGN-IN": {
+    "cssSelector": "#top-layout > div > div > div > div > div > div:nth-child(4) > button"
+  },
+  "SIGN-IN-MESSAGE": {
+    "cssSelector": "#top-layout > div > div > div > div > div > form > div.alert.no-border.alert-danger"
+  },
+  "MENTOR PLATFORM HOME ICON": {
+    "id": ""
+  },
+  "MENTORING": {
+    "id": ""
+  },
+  "MENTORS": {
+    "id": ""
+  },
+  "MENTEES": {
+    "id": ""
+  },
+  "PEER": {
+    "id": ""
+  },
+  "FIND MORE MENTORS": {
+    "id": ""
+  }
+
+
+
+}
